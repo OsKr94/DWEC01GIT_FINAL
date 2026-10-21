@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resultado final index.html</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #f2f2f2;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #111;
+      padding: 30px 0 0 40px;
+    }
+
+    .container {
+      width: 1000px;
+      margin: 0 auto 0 0;
+    }
+
+    h1 {
+      font-size: 3.1rem;
+      line-height: 1.1;
+      font-weight: 700;
+      margin: 0 0 25px 0;
+    }
+
+    .titulo {
+      font-size: 2.1rem;
+      font-weight: 700;
+      margin: 0 0 12px 0;
+    }
+
+    .lista {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      font-size: 1.05rem;
+      line-height: 1.8;
+      font-weight: 500;
+    }
+
+    .lista li {
+      margin-left: 0;
+      padding-left: 0;
+    }
+
+    .subgrupo {
+      margin: 8px 0 8px 0;
+      font-size: 1.05rem;
+      font-weight: 700;
+    }
+
+    .nivel {
+      margin: 0 0 0 30px;
+      padding: 0;
+      list-style: none;
+      font-size: 1.08rem;
+      line-height: 1.55;
+    }
+
+    .nivel li {
+      margin: 0;
+      padding: 0;
+    }
+
+    .nivel li::before {
+      content: "• ";
+    }
+
+    .ramas {
+      margin-top: 6px;
+      margin-left: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Resultado final index.html</h1>
+
+    <div class="titulo">UT02.2 Tarea Git</div>
+
+    <div class="subgrupo">Tag 0.1</div>
+    <div class="subgrupo">Tag 0.2</div>
+    <div class="subgrupo">Tag 1.0</div>
+    <div class="subgrupo">Tag 1.1</div>
+    <div class="subgrupo">Bug seguridad HF1</div>
+    <div class="subgrupo">Release</div>
+
+    <ul class="nivel ramas">
+      <li>Commit 1</li>
+      <li>Commit 2</li>
+      <li>Commit 3</li>
+      <li>Commit 4</li>
+      <li>Commit 5</li>
+    </ul>
+
+    <div class="subgrupo" style="margin-top: 20px;">Develop</div>
+    <ul class="nivel ramas">
+      <li>Commit 1</li>
+      <li>Commit 2</li>
+      <li>Commit 3</li>
+      <li>Commit 4</li>
+      <li>Commit 5</li>
+      <li>Commit 6</li>
+      <li>Commit 7</li>
+      <li>Commit 8</li>
+      <li>Commit 9</li>
+    </ul>
+
+    <div class="subgrupo" style="margin-top: 20px;">Feature 2</div>
+    <ul class="nivel ramas">
+      <li>Commit 1</li>
+      <li>Commit 2</li>
+      <li>Commit 3</li>
+      <li>Commit 4</li>
+      <li>Commit 5</li>
+      <li>Commit 6</li>
+    </ul>
+
+    <div class="subgrupo" style="margin-top: 20px;">Feature 1</div>
+    <ul class="nivel ramas">
+      <li>Commit 1</li>
+      <li>Commit 2</li>
+      <li>Commit 3</li>
+      <li>Commit 4</li>
+    </ul>
+  </div>
+</body>
+</html>
